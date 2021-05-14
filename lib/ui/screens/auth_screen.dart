@@ -48,7 +48,7 @@ class _AuthPageState extends State<AuthPage> {
                 size: 18,
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 66),
             CustomButton(
               radius: 50,
               width: 132,
