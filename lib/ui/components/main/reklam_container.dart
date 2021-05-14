@@ -18,7 +18,7 @@ class _ReklamContainer extends State<ReklamContainer> {
             padding: EdgeInsets.only(left: 20, bottom: 12),
             alignment: Alignment.bottomLeft,
             height: 141,
-            width: 339,
+            width: MediaQuery.of(context).size.width / 0.9062,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(8),

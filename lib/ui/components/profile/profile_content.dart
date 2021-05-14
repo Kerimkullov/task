@@ -69,14 +69,14 @@ class ProfileContent extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 27,
+            height: 35,
           ),
           Text(
             "Описание профиля. ❤️ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             style: TaskTextStyles.regular12,
           ),
           SizedBox(
-            height: 16,
+            height: 31,
           ),
           Row(
             children: [
@@ -96,6 +96,16 @@ class ProfileContent extends StatelessWidget {
                 width: 16,
               ),
             ],
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Container(
+            alignment: Alignment.center,
+            child: Text(
+              "Редактировать",
+              style: TaskTextStyles.medium14.copyWith(color: Color(0xffF90640)),
+            ),
           )
         ],
       ),

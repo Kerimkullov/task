@@ -24,7 +24,7 @@ class _PageControllerContainer extends State<PageControllerContainer>
   Widget build(BuildContext context) {
     return Container(
       height: 230,
-      width: 339,
+      width: MediaQuery.of(context).size.width / 0.9062,
       child: PageView(
         controller: _pageController,
         children: <Widget>[
@@ -47,7 +47,7 @@ class _PageControllerContainer extends State<PageControllerContainer>
                       color: Colors.transparent.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(16)),
                   height: 198,
-                  width: 339,
+                  width: MediaQuery.of(context).size.width / 0.9062,
                   child: TabBarView(
                     controller: _tabController,
                     children: <Widget>[
